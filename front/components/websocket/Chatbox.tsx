@@ -1,11 +1,12 @@
 "use client"
 
+import { messageType } from "@/utils/type"
 import InputMessage from "./InputMessage"
 import Message from "./message"
 import { useState } from "react"
 
 const Chatbox = () => {
-    const [messages, setMessages] = useState([])
+    const [messages, setMessages] = useState<messageType[]>([])
 
     return (
         <>

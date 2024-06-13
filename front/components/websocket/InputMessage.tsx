@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 import { IoSend } from 'react-icons/io5';
 
 type propsMessageType = {
-    setMessages: any;
+    setMessages: React.Dispatch<React.SetStateAction<messageType[]>>;
     messages: messageType[];
 }
 
