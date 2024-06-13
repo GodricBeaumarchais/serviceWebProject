@@ -1,5 +1,4 @@
-import Chatbox from "@/components/Chatbox";
-import Image from "next/image";
+import Chatbox from "@/components/websocket/Chatbox";
 
 export default function Home() {
   return (

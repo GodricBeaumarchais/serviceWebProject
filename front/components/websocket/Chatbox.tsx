@@ -1,6 +1,5 @@
 "use client"
 
-import { mokeMessages } from "@/utils/list"
 import InputMessage from "./InputMessage"
 import Message from "./message"
 import { useState } from "react"
