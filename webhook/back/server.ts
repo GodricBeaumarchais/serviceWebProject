@@ -12,7 +12,7 @@ app.post('/new-chapter', async (req, res) => {
 
     // Envoyer une notification au serveur B
     try {
-        await axios.post('http://localhost:3001/api/webhook', {
+        await axios.post('http://localhost:3000/api/webhook', {
             chapterNumber,
             title
         });

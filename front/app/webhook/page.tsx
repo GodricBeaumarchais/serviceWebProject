@@ -1,7 +1,10 @@
+import WebHook from "@/components/webhook/webhook"
 
 const page = () => {
     return (
-        <div>Heyy</div>
+        <div>
+            <WebHook />
+        </div>
     )
 }
 
